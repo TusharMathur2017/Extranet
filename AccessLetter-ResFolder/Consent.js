@@ -1,3 +1,5 @@
+// Code in GitHub now
+
 window.addEventListener("DOMContentLoaded", function () {
     SP.SOD.executeFunc("sp.js", "SP.ClientContext", init);
 });
