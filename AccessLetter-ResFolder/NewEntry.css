@@ -1,0 +1,99 @@
+#s4-ribbonrow,
+.ms-siteactions-normal {
+    display: none !important;
+}
+
+#sideNavBox,
+#s4-titlerow {
+    display: none !important;
+}
+
+#contentBox {
+    margin-left: 0px
+}
+
+#alBanner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    font-family: Verdana;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #b0b0b0, #ffffff);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #b0b0b0, #ffffff);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #b0b0b0, #ffffff);
+    padding: 5px 0 5px 0;
+}
+
+.formHolder {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    min-height: 500px;
+    font-family: Verdana;
+    font-size: 10pt;
+    padding: 35px;
+    border-radius: 10px 10px;
+    box-shadow: 1px 1px 15px #d4d4d4;
+    /* Safari 5.1+, Chrome 10+ */
+    background: -webkit-radial-gradient(circle, #ffffff, #cecece);
+    background: -webkit-radial-gradient(circle, #ffffff, #cecece);
+    /* Firefox 3.6+ */
+    background: -moz-radial-gradient(circle, #ffffff, #cecece);
+    /* IE 10 */
+    background: -ms-radial-gradient(circle, #ffffff, #cecece);
+}
+
+.formHolder label {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+#email,
+#txt_CaseCode,
+#txt_ClientName,
+#txt_PName,
+#txt_RName,
+#txt_RCName,
+#txt_VCount,
+#txtTPartyDetails,
+#txt_vMultiLine {
+    border-style: solid;
+    border-radius: 3px;
+    width: 100%;
+    box-shadow: 2px 2px 1px #aeaeae;
+    border-color: #908f8f;
+    padding: 2px;
+}
+
+#txt_vMultiLine{
+    width: 90%;
+}
+
+#txtTPartyDetails {
+    height: 120px;
+}
+
+#btn_Send {
+    font-weight: bold;
+    font-size: 10pt;
+    margin-left: 0;
+}
+
+.hideComp {
+    visibility: hidden;
+}
+
+.xtab {
+    border-radius: 3px;
+}
+
+.xtab input,
+.xtab select,
+.xtab textarea {
+    font-size: 9pt;
+}
