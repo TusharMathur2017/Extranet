@@ -1,2 +1,2 @@
 REM robocopy "C:\Users\42TCM\SharePoint\AccessLetter-Scripts" "\\WTREXTRAAPPQA1V\E$\Install\AccessLetter" /MIR
-robocopy "C:\Users\42TCM\SharePoint\EXTRANET\AccessLetter-Scripts" "\\WTREXTRAAPP1V\E$\Install\AccessLetter" /MIR
+robocopy "C:\Users\42TCM\SharePoint\EXTRANET\Extranet\AccessLetter-Scripts" "\\WTREXTRAAPP1V\E$\Install\AccessLetter" /MIR
