@@ -4,7 +4,8 @@
 <head>
     <title>Entry Form</title>
     <link rel="stylesheet" href="https://rawgit.com/TusharMathur2017/Extranet/eama/AccessLetter-ResFolder/xtab.css" />
-    <link rel="stylesheet" href="https://rawgit.com/TusharMathur2017/Extranet/eama/AccessLetter-ResFolder/NewEntry.min.css"
+    <!-- <link rel="stylesheet" href="https://rawgit.com/TusharMathur2017/Extranet/eama/AccessLetter-ResFolder/NewEntry.min.css" -->
+    <link rel="stylesheet" href="https://rawgitNewEntry.min.css"
     />
 </head>
 
@@ -14,6 +15,12 @@
     </div>
     <br>
     <div class="formHolder">
+        <input type="radio" name="Role" value="Yes">I am a Manager/Partner<br>
+        <input type="radio" name="Role" value="No">I am a EA/MA filling on behalf of a Manager/Partner<br>
+        <label>Case Code</label><br>
+        <input type="text" id="txt_CaseCode" minlength="3" maxlength="4" placeholder="Enter 3 to 4 char Case Code (required)">
+        <br><br>
+
         <label>Case Code</label><br>
         <input type="text" id="txt_CaseCode" minlength="3" maxlength="4" placeholder="Enter 3 to 4 char Case Code (required)">
         <br><br>
@@ -47,7 +54,9 @@
     <script type="application/javascript" src="https://rawgit.com/TusharMathur2017/Extranet/eama/AccessLetter-ResFolder/xtab.js "></script>
     <script type="application/javascript" src="https://rawgit.com/TusharMathur2017/Extranet/eama/AccessLetter-ResFolder/Encryption.js"
         charset="utf-8 "></script>
-    <script type="application/javascript" src="https://rawgit.com/TusharMathur2017/Extranet/eama/AccessLetter-ResFolder/NewEntry.min.js"
+    <!-- <script type="application/javascript" src="https://rawgit.com/TusharMathur2017/Extranet/eama/AccessLetter-ResFolder/NewEntry.min.js"
+        charset="utf-8 "></script> -->
+        <script type="application/javascript" src="NewEntry.min.js"
         charset="utf-8 "></script>
 </body>
 
